@@ -10,6 +10,10 @@ const RESUME_DATA = {
     telegram: "https://t.me/wertiba",
     leetcode: "https://leetcode.com/wertiba"
   },
+  skills: [
+    "Python", "FastAPI", "PyTorch", "scikit-learn", "OpenCV",
+    "PostgreSQL", "Docker", "Grafana", "Kotlin", "Git", "Linux"
+  ],
   achievements: [
     {
       title: "DANO spring SPb hackathon",
@@ -41,18 +45,21 @@ const RESUME_DATA = {
     {
       title: "Motivation bot",
       description: "Parses events from Google Calendar and provides personal motivation messages based on LLM (Ollama).",
+      details: "This project uses the Google Calendar API to fetch events and Ollama to generate motivational content based on those events. It's built with Python and Telebot for the Telegram interface. The main goal was to create a personalized assistant that keeps the user engaged with their schedule.",
       link: "https://github.com/Wertiba/TelegramMotivation",
       tags: ["Python", "Telebot", "Ollama", "LLM"]
     },
     {
       title: "Deepfake classifier",
       description: "A classifier built during Yandex Lyceum using CNN and ResNET architectures.",
+      details: "Developed as a final project for Yandex Lyceum, this classifier distinguishes between real and deepfake images. It utilizes Convolutional Neural Networks (CNN) and pre-trained ResNet models implemented in PyTorch. The project involved data preprocessing, model training, and evaluation on Kaggle datasets.",
       link: "https://www.kaggle.com/code/romanrozen/deepfake-classifier",
       tags: ["CNN", "ResNET", "Kaggle", "PyTorch"]
     },
     {
       title: "AI Business SPB Backend",
       description: "Backend repository for the AI Business SPB Hackathon project.",
+      details: "A robust backend solution developed for the AI Business SPB Hackathon. It handles data processing, API endpoints for the frontend, and integration with AI models. The stack includes FastAPI for the web framework and PostgreSQL for data storage. Our team secured 3rd place with this project.",
       link: "https://github.com/Wertiba/AI-Business-SPB-Hackathon-Backend",
       tags: ["Python", "Backend", "Hackathon"]
     }
